@@ -1,0 +1,49 @@
+# Python Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python Bytecode and Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Temporary Uploads and Temporary Files
+temp_uploads/
+*.tmp
+*.pt.tmp
+
+# Large Video Datasets and Cached Feature Tensors (Excluded from Git)
+Anomaly-Videos-Part-3/
+Normal_Videos_for_Event_Recognition/
+cached_features/
+
+# Raw Compressed Archives
+*.zip
+*.tar.gz
+*.tar
+*.rar
+
+# IDE and Editor Configurations
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Historical One-Time Data Preparation Scripts (Local Only)
+inspect_zip.py
+extract_new_normals.py
+audit_new_normals.py
+validate_raw_video_inference.py
